@@ -1,0 +1,15 @@
+.lmj-care-scale {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.lmj-care-icon {
+    width: 25px;
+    margin: 0 5px;
+    transition: transform 0.3s;
+}
+
+.lmj-care-icon:hover {
+    transform: scale(1.2);
+}

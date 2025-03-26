@@ -1,0 +1,79 @@
+/* Cart.css */
+.lmj-cart {
+    color: white;
+    background-color: #31b572;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: solid 1px #31b572; /* Encadré visible uniquement quand le panier est ouvert */
+}
+
+.lmj-cart-toggle-button {
+    font-size: 1rem;
+    background: linear-gradient(90deg, #31b572, #28a745);
+    color: white; /* Texte bien visible */
+    padding: 12px 18px;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: none; /* Évite les effets de flou */
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+
+
+
+.lmj-cart-toggle-button {
+    font-size: 1rem;
+    background: linear-gradient(90deg, #31b572, #28a745);
+    color: #ffffff;
+    padding: 12px 18px;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s, transform 0.2s;
+    opacity: 1;
+}
+
+.lmj-cart-closed > .lmj-cart-toggle-button {
+    font-size: 1rem;
+    background-color: #31b572; /* Couleur de fond cohérente */
+    color: #ffffff; /* Texte blanc pour un bon contraste */
+    border: none; /* Supprime toute bordure par défaut */
+    padding: 12px 18px;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.lmj-cart-closed > .lmj-cart-toggle-button:hover {
+    background-color: #28a745; /* Change le fond au survol */
+    color: #ffffff; /* Assure que le texte reste lisible */
+}
+
+
+
+.lmj-cart > ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    width: 100%;
+}
+
+.lmj-cart > ul > div {
+    margin-bottom: 10px;
+}

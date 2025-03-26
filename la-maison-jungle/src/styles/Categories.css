@@ -1,0 +1,23 @@
+/* Categories.css */
+.lmj-categories {
+    text-align: center;
+    padding-top: 20px;
+    background-color: #31b572;
+    border: solid 1px #ddd;
+    border-radius: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.lmj-categories-select {
+    margin-right: 15px;
+    padding: 10px 15px;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+.lmj-categories-select:hover {
+    border-color: #31b572;
+}

@@ -1,0 +1,166 @@
+/* Amélioration des boutons dans l'ensemble du site */
+button {
+    /* Supprimez ou limitez les styles globaux */
+    all: unset; /* Réinitialise tous les styles par défaut */
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #31b572;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #28a745;
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+button:active {
+    background-color: #218838;
+    transform: scale(0.95);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+button:disabled {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+
+.lmj-cart-toggle-button:hover {
+    background: linear-gradient(90deg, #28a745, #31b572); /* Inversion du dégradé */
+    transform: scale(1.05); /* Effet de zoom léger */
+    color: #eaffea; /* Variation subtile du texte */
+}
+
+.lmj-cart-toggle-button:active {
+    background: #218838; /* Couleur plus sombre pour l'état actif */
+    transform: scale(0.95);
+    color: #ffffff; /* Texte toujours lisible */
+}
+
+
+
+
+.lmj-cart-add-button {
+    background-color: #ff9800;
+    color: white;
+    font-size: 1rem;
+    border-radius: 20px;
+    padding: 10px 20px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.lmj-cart-add-button:hover {
+    background-color: #e68900;
+    transform: scale(1.1);
+}
+
+.lmj-cart-add-button:active {
+    background-color: #cc7a00;
+    transform: scale(0.95);
+}
+
+/* Styles pour les formulaires */
+input {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus {
+    border-color: #31b572;
+    outline: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Amélioration des listes */
+.lmj-plant-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+}
+
+.lmj-plant-item {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    position: relative;
+}
+
+.lmj-plant-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.lmj-plant-item .lmj-plant-item-price {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #31b572;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Amélioration des sélecteurs */
+.lmj-categories-select {
+    font-size: 1rem;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s;
+}
+
+.lmj-categories-select:focus {
+    border-color: #31b572;
+    outline: none;
+}
+
+.lmj-categories {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Ajustement global */
+button {
+    display: inline-block;
+    margin: 5px;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}

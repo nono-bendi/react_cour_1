@@ -1,0 +1,44 @@
+/* PlantItem.css */
+.lmj-plant-item-cover {
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    object-fit: cover;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.lmj-plant-item-cover:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.lmj-plant-item {
+    margin: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    text-transform: capitalize;
+    position: relative;
+    border: solid 1px #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #ffffff;
+    transition: box-shadow 0.3s;
+}
+
+.lmj-plant-item:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.lmj-plant-item-price {
+    position: absolute;
+    border-radius: 20px 20px 20px 0;
+    background-color: #31b472;
+    color: white;
+    padding: 15px;
+    right: 0;
+    top: 0;
+    font-weight: 500;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
